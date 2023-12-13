@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="nevbar-left">
+            <div class="logo"><img src="icons-image/Facebook-logo.webp"></div>
+            <div class="search">
+                <i class="fa regular fa-magnifying-glass" id="nevbar-magnifying-glass"></i>
+                <input type="text" class="input">
+            </div>
+        </div>
+
+        <div class="navbar-center">
+            <i class="fa-solid fa-house" id="nav-home"></i>
+            <i class="fa-brands fa-youtube" id="nav-watch"></i>
+            <i class="fa regular fa-store" id="nav-store"></i>
+            <i class="fa solid fa-users" id="nav-users"></i>
+            <i class="fa - fa-calendar clock" id="nav-feed"></i>
+        </div>
+
+        <div class="navbar-right">
+            <div class="background"><img src="icons-image/dot.png" id="dot-menu"> </div>
+            <div class="background-message"><i class="fa-brands fa-facebook-messenger"></i>
+                <p class="message">3</p>
+            </div>
+            <div class="background"><i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="background"><img src="icons-image/profile-pic.jpg" class="profile-pic"></div>
+        </div>
+    </div>
+
+
+    <div class="left-content">
+        <div class="profile-name">
+            <img src="icons-image/profile-pic.jpg">
+            <h3>Ankit Thakur</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-solid fa-user-group" id="friend-icon"></i>
+            <h3 class="friend-font">Friends</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa - fa-calendar" id="feed-icon"></i>
+            <h3>Feeds</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa solid fa-users" id="Groups-icon"></i>
+            <h3>Groups</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa regular fa-store" id="Marketplace-icon"></i>
+            <h3>Marketplace</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-brands fa-youtube" id="Watch-icon"></i>
+            <h3>Watch</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-sharp fa-solid fa-clock" id="memories-icon"></i>
+            <h3>Memories</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-solid fa-bookmark" id="saved-icon"></i>
+            <h3>Saved</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-solid fa-flag" id="pages-icon"></i>
+            <h3>Pages</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa - fa-calendar" id="events-icon"></i>
+            <h3>Events</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-sharp fa-solid fa-chart-simple" id="ads-icon"></i>
+            <h3>Ads Manager</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-solid fa-bullhorn" id="ad-center-icon"></i>
+            <h3>Ad Centre</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-solid fa-droplet" id="blood-icon"></i>
+            <h3>Blood Donations</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-solid fa-hand-holding-heart" id="fundraisers-icon"></i>
+            <h3>Fundraisers</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-brands fa-facebook-messenger" id="messenger-icon"></i>
+            <h3>Messenger</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-brands fa-facebook-messenger" id="mes-kid-icon"></i>
+            <h3>Messenger Kids</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-solid fa-gamepad" id="games-icon"></i>
+            <h3>Play games</h3>
+        </div>
+
+        <div class="friends">
+            <i class="fa-solid fa-image" id="rec-activity-icon"></i>
+            <h3>Recent ad activity</h3>
+        </div>
+    </div>
+
+    <!-- center-content---------------- -->
+
+    <div class="center-content">
+        <div class="nev-storie-reel">
+            <div class="stories-and-reels">
+                <div class="stories">
+                    <i class="fa-solid fa-book-open"></i> <span class="storie-font">Stories</span>
+                </div>
+                <div class="reels">
+                    <i class="fa - fa-film"></i> <span class="reels-font">Reels</span>
+                </div>
+            </div>
+
+            <div class="contact-stories">
+                <div class="prof-stories-box">
+                    <img src="icons-image/profile-pic.jpg">
+
+                    <i class="fa-solid fa-circle-plus" id="add-sto-icon"></i>
+                    <h4>Create Stories</h4>
+
+                </div>
+
+                <div class="stories-box">
+                    <img src="icons-image/friend-1.jpg">
+                    <h4>Trisha KL</h4>
+                    <img src="icons-image/friend-1.jpg" id="friends-icon">
+                </div>
+
+                <div class="stories-box">
+                    <img src="icons-image/friend-4.jpg">
+                    <h4>Arya Madhavan</h4>
+                    <img src="icons-image/friend-4.jpg" id="friends-icon">
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <img src="icons-image/friend-2.jpg">
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <video autoplay loop muted plays-inline>
+                <source src="videos/2.mp4">
+            </video>
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <img src="icons-image/friend-3.jpg">
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <video autoplay loop muted plays-inline>
+                <source src="videos/4.mp4">
+            </video>
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <img src="icons-image/friend-5.jpg">
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <video autoplay loop muted plays-inline>
+                <source src="videos/5.mp4">
+            </video>
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <img src="icons-image/friend-1.jpg">
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <video autoplay loop muted plays-inline>
+                <source src="videos/6.mp4">
+            </video>
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <img src="icons-image/profile-pic.jpg">
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+        <div class="stories-and-adds">
+            <video autoplay loop muted plays-inline>
+                <source src="videos/1.mp4">
+            </video>
+            <div class="likes-comment">
+                <i class="fa-solid fa-thumbs-up" id="like"></i>
+                <i class="fa-solid fa-heart" id="heart"></i>
+                <i class="fa-regular fa-comment" id="comment"></i>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- -----------right-content------------- -->
+    <div class="right-content">
+        <div class="contact-head">
+            <h3>Contacts</h3>
+            <div class="cont-head-right">
+                <i class="fa regular fa-magnifying-glass"></i>
+                <i class="fa - fa-video"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-2.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Riya Jain
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-3.jpg" id="contact-img"> </div>
+            <div class="name">
+                Suraj Raj
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-1.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Trisha KL
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-4.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Arya Madhavan
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-5.jpg" id="contact-img"> </div>
+            <div class="name">
+                Kalpana Singh
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/profile-pic.jpg" id="contact-img"> </div>
+            <div class="name">
+                KL Rahul
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/dot.png" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Singh Roy
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-2.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Riya Jain
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-3.jpg" id="contact-img"> </div>
+            <div class="name">
+                Suraj Raj
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-1.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Trisha KL
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-4.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Arya Madhavan
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-5.jpg" id="contact-img"> </div>
+            <div class="name">
+                Kalpana Singh
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/profile-pic.jpg" id="contact-img"> </div>
+            <div class="name">
+                KL Rahul
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/dot.png" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Singh Roy
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-2.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Riya Jain
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-3.jpg" id="contact-img"> </div>
+            <div class="name">
+                Suraj Raj
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-1.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Trisha KL
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-4.jpg" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Arya Madhavan
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/friend-5.jpg" id="contact-img"> </div>
+            <div class="name">
+                Kalpana Singh
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/profile-pic.jpg" id="contact-img"> </div>
+            <div class="name">
+                KL Rahul
+            </div>
+        </div>
+
+        <div class="contacts">
+            <div> <img src="icons-image/dot.png" id="contact-img"> <span class="online"></span></div>
+            <div class="name">
+                Singh Roy
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
